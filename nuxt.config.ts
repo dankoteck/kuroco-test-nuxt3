@@ -6,8 +6,8 @@ export default defineNuxtConfig({
   ssr: false,
   nitro: {
     preset: "service-worker",
-    output: {
-      publicDir: path.join(__dirname, "dist"),
-    },
+    // output: {
+    //   publicDir: path.join(__dirname, "dist"),
+    // },
   },
 });
