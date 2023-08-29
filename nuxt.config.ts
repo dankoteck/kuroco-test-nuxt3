@@ -9,4 +9,9 @@ export default defineNuxtConfig({
       publicDir: path.join(__dirname, "dist"),
     },
   },
+  runtimeConfig: {
+    public: {
+      apiURL: process.env.API_URL,
+    },
+  },
 });
